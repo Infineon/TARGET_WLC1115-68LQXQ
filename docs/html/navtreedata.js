@@ -25,23 +25,22 @@
 var NAVTREE =
 [
   [ "WLC1115-68LQXQ BSP", "index.html", [
-    [ "WLC1 BSP", "index.html", [
-      [ "Overview", "index.html#autotoc_md1", null ],
-      [ "Features", "index.html#autotoc_md2", null ],
-      [ "BSP Configuration", "index.html#autotoc_md3", [
-        [ "Clock Configuration", "index.html#autotoc_md4", null ]
-      ] ],
-      [ "API Reference Manual", "index.html#autotoc_md5", null ],
-      [ "More information", "index.html#autotoc_md6", null ]
+    [ "Overview", "index.html#autotoc_md1", null ],
+    [ "Features", "index.html#autotoc_md2", null ],
+    [ "BSP Configuration", "index.html#autotoc_md3", [
+      [ "Clock Configuration", "index.html#autotoc_md4", null ]
     ] ],
+    [ "API Reference Manual", "index.html#autotoc_md5", null ],
+    [ "More information", "index.html#autotoc_md6", null ],
     [ "BSP Overview", "md_source_bsps_mt_bsp_user_guide.html", null ],
-    [ "BSP Settings", "md_bsp_settings.html", null ]
+    [ "BSP Settings", "md_bsp_settings.html", null ],
+    [ "BSP API Reference", "modules.html", "modules" ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"index.html"
+"group__group__bsp__errors.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

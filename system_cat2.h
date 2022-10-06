@@ -1,12 +1,12 @@
 /***************************************************************************//**
 * \file system_cat2.h
-* \version 1.10.2
+* \version 2.0
 *
 * \brief Device system header file.
 *
 ********************************************************************************
 * \copyright
-* (c) (2016-2021), Cypress Semiconductor Corporation (an Infineon company) or
+* (c) (2016-2022), Cypress Semiconductor Corporation (an Infineon company) or
 * an affiliate of Cypress Semiconductor Corporation.
 *
 * SPDX-License-Identifier: Apache-2.0
@@ -171,6 +171,11 @@
 * <table class="doxtable">
 *   <tr><th>Version</th><th>Changes</th><th>Reason for Change</th></tr>
 *   <tr>
+*     <td>2.0</td>
+*     <td>Removed unused extern cy_delayFreqHz.</td>
+*     <td>PDL major revision.</td>
+*   </tr>
+*   <tr>
 *     <td>1.10.2</td>
 *     <td>Update the paths to the code snippets.</td>
 *     <td>PDL structure update.</td>
@@ -268,7 +273,6 @@ extern void     Default_Handler (void);
 
 extern void     Cy_OnResetUser(void);
 
-extern uint32_t cy_delayFreqHz;
 extern uint32_t cy_delayFreqKhz;
 extern uint8_t  cy_delayFreqMhz;
 extern uint32_t cy_delay32kMs;

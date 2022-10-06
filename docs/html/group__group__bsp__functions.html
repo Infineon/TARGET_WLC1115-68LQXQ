@@ -64,7 +64,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('index.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('group__group__bsp__functions.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -82,54 +82,43 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </iframe>
 </div>
 
-<div><div class="header">
-  <div class="headertitle"><div class="title">WLC1115-68LQXQ BSP </div></div>
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">Functions</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p ><a class="anchor" id="md_output_bsps_TARGET_WLC1115_68LQXQ_README"></a> </p>
-<h1><a class="anchor" id="autotoc_md1"></a>
-Overview</h1>
-<p >BSP for WLC1 15W Solution</p>
-<p ><img src="board.png" alt="" class="inline"/></p>
-<p >To use code from the BSP, simply include a reference to <code>cybsp.h</code>.</p>
-<h1><a class="anchor" id="autotoc_md2"></a>
-Features</h1>
-<h1><a class="anchor" id="autotoc_md3"></a>
-BSP Configuration</h1>
-<p >The BSP has a few hooks that allow its behavior to be configured. Some of these items are enabled by default while others must be explicitly enabled. Items enabled by default are specified in the WLC1115-68LQXQ.mk file. The items that are enabled can be changed by creating a custom BSP or by editing the application makefile.</p>
-<p >Components:</p><ul>
-<li>Device specific category reference (e.g.: CAT1) - This component, enabled by default, pulls in any device specific code for this board.</li>
-</ul>
-<p >Defines:</p><ul>
-<li>CYBSP_WIFI_CAPABLE - This define, disabled by default, causes the BSP to initialize the interface to an onboard wireless chip if it has one.</li>
-<li>CY_USING_HAL - This define, enabled by default, specifies that the HAL is intended to be used by the application. This will cause the BSP to include the applicable header file and to initialize the system level drivers.</li>
-<li>CYBSP_CUSTOM_SYSCLK_PM_CALLBACK - This define, disabled by default, causes the BSP to skip registering its default SysClk Power Management callback, if any, and instead to invoke the application-defined function <code>cybsp_register_custom_sysclk_pm_callback</code> to register an application-specific callback.</li>
-</ul>
-<h2><a class="anchor" id="autotoc_md4"></a>
-Clock Configuration</h2>
-<table class="markdownTable">
-<tr class="markdownTableHead">
-<th class="markdownTableHeadNone">Clock   </th><th class="markdownTableHeadNone">Source   </th><th class="markdownTableHeadNone">Output Frequency    </th></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">CLK_HF   </td><td class="markdownTableBodyNone">CLK_IMO   </td><td class="markdownTableBodyNone">48 MHz   </td></tr>
+<a name="details" id="details"></a><h2 class="groupheader">General Description</h2>
+<p >All functions exposed by the board. </p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:gab989986b285e127f78f61c29f6ccbbfa"><td class="memItemLeft" align="right" valign="top">cy_rslt_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__bsp__functions.html#gab989986b285e127f78f61c29f6ccbbfa">cybsp_init</a> (void)</td></tr>
+<tr class="memdesc:gab989986b285e127f78f61c29f6ccbbfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize all hardware on the board.  <a href="group__group__bsp__functions.html#gab989986b285e127f78f61c29f6ccbbfa">More...</a><br /></td></tr>
+<tr class="separator:gab989986b285e127f78f61c29f6ccbbfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<p >See the <a href="md_bsp_settings.html">BSP Setttings</a> for additional board specific configuration settings.</p>
-<h1><a class="anchor" id="autotoc_md5"></a>
-API Reference Manual</h1>
-<p >The WLC1115-68LQXQ Board Support Package provides a set of APIs to configure, initialize and use the board resources.</p>
-<p >See the <a href="modules.html">BSP API Reference Manual</a> for the complete list of the provided interfaces.</p>
-<h1><a class="anchor" id="autotoc_md6"></a>
-More information</h1>
-<ul>
-<li><a href="modules.html">WLC1115-68LQXQ BSP API Reference Manual</a></li>
-<li><a href="http://www.cypress.com/CY7110">WLC1115-68LQXQ Documentation</a></li>
-<li><a href="http://www.cypress.com">Cypress Semiconductor, an Infineon Technologies Company</a></li>
-<li><a href="https://github.com/infineon">Infineon GitHub</a></li>
-<li><a href="https://www.cypress.com/products/modustoolbox-software-environment">ModusToolbox™</a></li>
-</ul>
-<hr  />
-<p> © Cypress Semiconductor Corporation (an Infineon company) or an affiliate of Cypress Semiconductor Corporation, 2019-2022. </p>
-</div></div><!-- PageDoc -->
+<h2 class="groupheader">Function Documentation</h2>
+<a id="gab989986b285e127f78f61c29f6ccbbfa" name="gab989986b285e127f78f61c29f6ccbbfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab989986b285e127f78f61c29f6ccbbfa">&#9670;&nbsp;</a></span>cybsp_init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">cy_rslt_t cybsp_init </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize all hardware on the board. </p>
+<dl class="section return"><dt>Returns</dt><dd>CY_RSLT_SUCCESS if the board is successfully initialized, if there is a problem initializing any hardware it returns an error code specific to the hardware module that had a problem. </dd></dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part

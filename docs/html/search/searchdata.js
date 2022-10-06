@@ -1,18 +1,24 @@
 var indexSectionsWithContent =
 {
-  0: "mpw",
-  1: "mpw"
+  0: "ceflmpw",
+  1: "c",
+  2: "ceflp",
+  3: "mpw"
 };
 
 var indexSectionNames =
 {
   0: "all",
-  1: "pages"
+  1: "functions",
+  2: "groups",
+  3: "pages"
 };
 
 var indexSectionLabels =
 {
   0: "All",
-  1: "Pages"
+  1: "Functions",
+  2: "Modules",
+  3: "Pages"
 };
 
