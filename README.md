@@ -9,7 +9,7 @@ BSP for WLC1 15W Solution
 To use code from the BSP, simply include a reference to `cybsp.h`.
 
 ## Features
-
+The solution board is Qi v1.3.2 compliant Extended Power Profile transmitter.
 
 ## BSP Configuration
 
@@ -39,7 +39,7 @@ See the [BSP API Reference Manual][api] for the complete list of the provided in
 
 ## More information
 * [WLC1115-68LQXQ BSP API Reference Manual][api]
-* [WLC1115-68LQXQ Documentation](http://www.cypress.com/CY7110)
+* [WLC1115-68LQXQ Documentation](http://www.infineon.com/cms/en/product/evaluation-boards/refwlctx15wc1)
 * [Cypress Semiconductor, an Infineon Technologies Company](http://www.cypress.com)
 * [Infineon GitHub](https://github.com/infineon)
 * [ModusToolbox™](https://www.cypress.com/products/modustoolbox-software-environment)
